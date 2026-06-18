@@ -50,3 +50,18 @@ class VectorStore:
             [1 - d for d in batch]
             for batch in distances
         ]
+    
+    def get_all_documents(self):
+        data = self.collection.get(include=["documents", "metadatas"])
+
+        docs = []
+
+        for doc, meta in zip(data["documents"], data["metadatas"]):
+            docs.append({
+                "id": meta.get("paper_id", meta.get("id")),
+                "chunk": doc,
+                "metadata": meta
+            })
+
+        return docs
+        

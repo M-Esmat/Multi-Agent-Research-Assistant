@@ -1,0 +1,13 @@
+ai-platform/
+__pycache__/
+.pytest_cache/
+
+.env
+
+data/chroma/
+data/raw/
+
+*.pyc
+*.pyo
+
+.vscode/

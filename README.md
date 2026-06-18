@@ -1,6 +1,12 @@
 # 🔬 AI Scientific Intelligence Platform
 ## Production-Grade Hybrid Retrieval System for AI Research Papers
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![ChromaDB](https://img.shields.io/badge/Vector_DB-ChromaDB-green)
+![Status](https://img.shields.io/badge/Status-V1_Stable-brightgreen)
+
+---
+
 # 🚀 Overview
 
 AI Scientific Intelligence Platform is a production-oriented Retrieval-Augmented Generation (RAG) retrieval system built on a corpus of more than 41,000 AI research paper chunks.
